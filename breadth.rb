@@ -57,10 +57,5 @@ fifth_node = Tree.new(5, [ninth_node])
 
 trunk = Tree.new(2, [seventh_node, fifth_node])
 
-nameToFind = 10
-foundName = trunk.breadthFirstSearch(nameToFind)
-if foundName != nil
-  # do something
-end
-puts foundName
+puts trunk.breadthFirstSearch(17)
 
